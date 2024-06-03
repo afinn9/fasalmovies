@@ -1,0 +1,11 @@
+.logoContainer{
+    margin-left: 20px;
+}
+.logo{
+    height: 50px;
+    width:100px;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-right: 120px;
+    left: 20px;
+}

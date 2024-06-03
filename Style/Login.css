@@ -1,0 +1,62 @@
+body{
+    position: fixed;
+     top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+}
+.loginHead{
+    color: white;
+    margin-top: 100px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight:bold;
+    padding-left: 80px;
+}
+.structure{
+    text-align: center;
+}
+.textField{
+    background-color: rgb(72, 74, 76);
+    height: 40px;
+    width: 350px;
+    border-radius: 8px;
+    border: none;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-size: large;
+    color: white;
+    border: none;
+}
+.textField::placeholder{
+    color:rgb(245, 246, 247);
+    opacity: 1;
+    font-size: large;
+}
+.button{
+    background-color: rgb(5, 68, 130);
+    height: 40px;
+    width: 370px;
+    border-radius: 8px;
+    border: none;
+    padding-left: 10px; 
+    color: white;
+    cursor: pointer;
+    font-size: large;
+}
+.button:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+.textField:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+    box-shadow: 0 0 5px rgba(241, 238, 238, 2.5);
+}
+
+
+.logo{
+    margin-left: 20px;
+    border: 3px solid rgb(219, 121, 23);
+    border-radius: 5px;
+}
